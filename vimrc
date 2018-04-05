@@ -32,13 +32,16 @@ set hlsearch
 set ignorecase
 set smartcase
 
+map <C-m> :nohl<CR>
 " Make sure we use 256 colors
 set t_ut=
 set t_Co=256
 " Gruvbox: colorscheme
 colorscheme gruvbox
 set background=dark
+let g:gruvbox_contrast_dark='soft'
 let g:gruvbox_italic=1
+
 
 " Use the below highlight group when displaying bad whitespace is desired.
 highlight BadWhitespace ctermbg=red guibg=red
