@@ -33,6 +33,7 @@ set smartcase
 
 " Make sure we use 256 colors
 set t_Co=256
+set t_ut=
 " Gruvbox: colorscheme
 colorscheme gruvbox
 set background=dark
