@@ -31,6 +31,7 @@ let g:UltisniptsEditSplit="vertical"
 set hlsearch
 set ignorecase
 set smartcase
+set cursorline
 
 map <C-m> :nohl<CR>
 " Make sure we use 256 colors
