@@ -28,6 +28,7 @@ let g:UltisnipsJumpBackwardTrigger="<c-z>"
 let g:UltisniptsEditSplit="vertical"
 
 " Search: smart case (otherwise ignore)
+set hlsearch
 set ignorecase
 set smartcase
 
